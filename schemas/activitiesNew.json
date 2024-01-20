@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "properties": {
+    "username": {
+      "type": "string",
+      "maxLength": 25
+    },
+    "activity_name": {
+      "type": "string"
+    },
+    "activity_description": {
+      "type": "string"
+    },
+    "repeat_frequency": {
+      "type": "string"
+    },
+    "start_time": {
+      "type": "string"
+    },
+    "start_date": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "username",
+    "activity_name",
+    "activity_description",
+    "repeat_frequency",
+    "start_time",
+    "start_date"
+  ],
+  "additionalProperties": false
+}
