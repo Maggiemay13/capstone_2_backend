@@ -109,7 +109,7 @@ class ActivitiesCalendar {
     return activities;
   }
 
-  /** Delete given med id from database; returns undefined.
+  /** Delete given activity id from database; returns undefined.
    *
    * Throws NotFoundError if company not found.
    **/
